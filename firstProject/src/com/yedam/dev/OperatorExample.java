@@ -22,9 +22,9 @@ public class OperatorExample {
 		for(int i=1; i <=10; i++) {
 			System.out.println(i);
 			if(i % 2 == 1) {
-				System.out.println(i +"는 홀수입니다.");
+				System.out.println(i +"는 홀수입니다.");// i/2 의 나머지가 1일때, i는 홀수 아닐시, i는 짝수
 			}else {
-				System.out.println(i +"는 짝수입니다.");
+				System.out.println(i +"는 짝수입니다.");//for문(반복문) + 조건문 같이 사용해보기 
 			}
 		}
 	}
