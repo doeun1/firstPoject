@@ -8,7 +8,7 @@ public class WhileExample02 {
 		boolean run = true;
 		int num = 10;
 		int keyCode = 0;
-		while(run) {
+		while(run) {//사용자가 직접 종료할수 있게 할때 while문을 사용
 			
 			System.out.println("키를 누르세요.");
 			
