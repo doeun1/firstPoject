@@ -11,13 +11,15 @@ public class WhileExample02 {
 		while(run) {//사용자가 직접 종료할수 있게 할때 while문을 사용
 			
 			System.out.println("키를 누르세요.");
-			
 			keyCode= System.in.read();
-			System.out.println(keyCode);
+
 			if(keyCode != 13 && keyCode != 10) {
 				keyCode = System.in.read();
 				System.out.println(keyCode);
 			}
+			System.in.read();
+			System.in.read();
+			
 			if(keyCode == 57)
 				run = false;
 //			System.out.println("num : "+num);
