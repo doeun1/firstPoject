@@ -18,7 +18,7 @@ public class ArrayExample08 {
 		}
 		avg=(double) sum/10;
 		System.out.println("sum:"+sum);
-		System.out.println("avg: " + avg);
+		System.out.println("avg: "+ avg);
 	}
 
 }
