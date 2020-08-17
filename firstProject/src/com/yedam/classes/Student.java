@@ -75,12 +75,7 @@ public class Student {
 		this.major = major;
 	}
 
-	public Student(int num, String name, String major) {
-		super();
-		this.num = num;
-		this.name = name;
-		this.major = major;
-	}
+
 
 	@Override
 	public String toString() {

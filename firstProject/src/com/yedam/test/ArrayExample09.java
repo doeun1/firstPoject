@@ -2,7 +2,7 @@ package com.yedam.test;
 
 import java.util.Scanner;
 
-public class ArrayExample09 {
+public class ArrayExample09 {// static은 값고정 값변환이 안됨
 	   public static void main(String[] args) {
 		      boolean run = true;
 		      int studentNum = 0;

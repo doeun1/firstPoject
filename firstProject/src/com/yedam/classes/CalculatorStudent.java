@@ -10,12 +10,12 @@ public class CalculatorStudent {
 	 */
 	public static void main(String[] args) {
 		Student s1=new Student();
-		s1.studNo =111;
-		s1.studName="홍길동";
+		s1.num =111;
+		s1.name="홍길동";
 		s1.major="역사";
-		System.out.println("학번은"+s1.studNo);
-		System.out.println("이름은"+s1.studName);
-		System.out.println("전공은"+s1.major);*/
+		System.out.println("학번은"+s1.num);
+		System.out.println("이름은"+s1.name);
+		System.out.println("전공은"+s1.major);
 				
 /*		s1.studNo=(111);
 		s1.studName=("홍길동");

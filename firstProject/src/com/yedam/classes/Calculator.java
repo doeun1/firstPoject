@@ -1,6 +1,6 @@
 package com.yedam.classes;
 
-public class Calculator {
+public class Calculator {//static키워드가 붙으면 뉴라는 뭐시기를 안써도 자동으로 로딩해줌?
 	double pi = 3.14;
 //더블 타입으로 pi라는 변수에 3.14라는 값을 지정
 	
