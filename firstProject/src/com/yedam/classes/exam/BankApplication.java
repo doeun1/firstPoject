@@ -44,7 +44,7 @@ public class BankApplication {
 		System.out.println("초기 입금액 : ");
 		int balance = scn.nextInt();
 		scn.nextLine();
-		System.out.println("결과 : 계좌가 생성되었습니다.");
+		System.out.print("결과 : 계좌가 생성되었습니다.");
 		Account a = new Account(ano, owner, balance);
 		for (int i = 0; i < accountArray.length; i++) {
 			if (accountArray[i] == null) {
