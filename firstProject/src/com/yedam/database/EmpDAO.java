@@ -29,23 +29,23 @@ public class EmpDAO {
 		}
 	}
 	
-	public void updateEmp(int ups, int upe) {
+	public void updateEmp(Employee emp) {
 		Connection conn = DBConnection.getConnection();
-		String upd= "update emp_temp set salary="+ups+"where employee_id="+upe;
+		String upd= "update emp_temp set salary="+emp.getSalary()+"where employee_id="+emp.getEmployeeId();
 		System.out.println(upd);
 		
 		try {
 			PreparedStatement psmt = conn.prepareStatement(upd);
 			int r = psmt.executeUpdate();
-			System.out.println(r+"건 입력되었습니다.");
+			System.out.println(r+"건 수정되었습니다.");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 	}
-	public void removeEmp(int aa) {//삭제하기
+	public void removeEmp(int empId) {//삭제하기
 		
 		Connection conn = DBConnection.getConnection();
-		String del= "delete from emp_temp where employee_Id="+ aa;
+		String del= "delete from emp_temp where employee_Id="+ empId;
 		System.out.println(del);
 		
 		

@@ -32,7 +32,7 @@ public class FriendAddress {
 		System.out.println("프로그램 종료.");
 	}// end of main()
 
-	public static void addUnivFriend() {
+	public static void addUnivFriend() {//addUnivFriend은 매개값이 없음
 		System.out.println("학교친구등록.");
 		System.out.println("학교이름 : ");
 		String name = scn.nextLine();
