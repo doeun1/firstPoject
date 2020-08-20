@@ -44,7 +44,6 @@ public class Student {
 		this.num = num;
 		this.name = name;
 	}
-
 	public Student(int num, String name, String major) {
 		this.num = num;
 		this.name = name;

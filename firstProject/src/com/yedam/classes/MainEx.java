@@ -4,7 +4,6 @@ class FinalClass {
 }
 //class ExtendClass extends FinalCalss {
 	
-}
 class ExString extends FinalClass {
 	
 }
@@ -38,6 +37,6 @@ public class MainEx {
 //		val = 20;
 		
 		MainEx ex = new MainEx();
-		ex.age = 20;
+//		ex.age = 20;
 	}
 }
