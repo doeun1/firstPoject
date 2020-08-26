@@ -5,13 +5,13 @@ import java.util.function.Consumer;
 
 public class ConsumerExample {
 	public static void main(String[] args) {
-		Consumer<String> consumer = (t) -> {
+		Consumer<String> consumer = (t) -> {//consumer라는 인터페이스
 				//new Consumer<String>() {
 
 			//@Override
 			//public void 
 			//accept(String t) {//구현할 메소드 : accept
-			System.out.println(t+"님 반갑습니다.");
+			System.out.println(t+"님 반갑습니다.");//consumer타입
 		};
 		consumer.accept("최재영");
 		

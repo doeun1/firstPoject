@@ -6,7 +6,7 @@ import java.util.function.Supplier;
 
 public class SupplierExample {
 	public static void main(String[] args) {
-		Supplier<String> supplier = () -> {
+		Supplier<String> supplier = () -> {//supplier 타입은 제네릭타입
 			return "Hello, World";
 		};
 		String result = supplier.get();
